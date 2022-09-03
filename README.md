@@ -35,14 +35,14 @@ The "mole" was created in PNG format (using "Canva" -a graphics platform) and pl
 
 Properties, Methods, functions used in this version:
 Boolean;
-querySelector()
-addEventListener()
-setInterval and clearInterval
-classList
-forEach
-arrow functions
-window alert
-Math.floor
+querySelector();
+addEventListener();
+setInterval and clearInterval;
+classList;
+forEach;
+arrow functions;
+window alert;
+Math.floor; and
 Math.Random
 
 Challenges:
