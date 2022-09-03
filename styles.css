@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0
+}
+
+html, body, header {
+    height: 100%;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:darkgray;
+}
+
+header{
+    text-align: center;
+    padding: .9em;
+}
+    
+
+.grid2{
+    width: 606px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square2{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    top: 0px;
+}
+
+.title{
+    font-size: 3em;
+    margin-bottom: .25em;
+}
+
+.score{
+    font-size: 3em;
+    margin-bottom: .2em;
+}
+
+.time-left{
+    font-size: 2em;
+    margin-bottom: .2em;
+}
+
+.grid{
+    width: 606px;
+    height: 606px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:green;
+}
+
+.square{
+    height: 200px;
+    width: 200px;
+    border: solid black 1px;
+}
+
+.mole{
+    background-color: green;
+    background-image: url('mole2.png');
+    background-position: center;
+    background-size: cover;
+
+}
+button {
+    background-color:yellow;
+    border: none;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: 1.5rem;
+    padding: 0.7rem 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+}
