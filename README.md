@@ -25,13 +25,11 @@ Multiple rounds to play - a round must begin, end, and there must be a way to ch
 
 ==***  Whack_A_Mole!! ***==
 
-Welcome to this version of Whack_A_Mole. The rules of the game are simple and the code easily customized to showcase a variety of functions. 
+Welcome to this version of Whack_A_Mole. The scope of the program aligns with the rules of the game. The rules are simple and the code easily customized to showcase a variety of functions. 
 
 To play: the player "whacks" as many moles within 10 seconds. A single mole will appear in a random square and a point is earned if the cursor clicks on the mole before it disappears. Both countdown and score are displayed on the game board. 
 
 An alert message appears and indicates the game is over along with the final score. A second alert message informs the player to click on the start button to commence another round and beat the last score.
-
-The "mole" was created in PNG format (using "Canva" -a graphics platform) and placed in the repository and url-tracked in CSS. 
 
 Properties, Methods, functions used in this version:
 Boolean;
@@ -45,10 +43,24 @@ window alert;
 Math.floor; and
 Math.Random
 
-Challenges:
-Initiating and then restarting the game after each round, required the most attention and test trials.
+HTML contains: 
+classes to build out
+the gameboard uses a 9-square "grid", with each "square" uniquely(id) numbered 1-9;
+two hyperlink anchors to display: "Time-Left" and "Score";
+button to "start" and restart the game;
 
-Understanding the steps to clearing the score and resetting the timer was a tedious process of trial and error that centered on mastering the use of setInterval and clearInterval. 
+CSS contains: 
+styling specifications for html, header and body elements;
+"mole" graphic was created in PNG format (using "Canva" graphics platform) and migrated into the game repository and url-tracked in CSS.
+
+JS contains:
+functions: randomization of squares; move mole and timer countdown
+
+
+Challenges:
+Once the functionality to start and execute the game were determined, finessing the quality of the player experience was an area to improve. Initiating and then restarting the game after each round provided an opportunity to assess the code sequencing.
+
+Several iterations were done to breakdown the game into three stages of the game: Initial Start, Game Over and Game Restart. Each phase involved adjustments to align mole movement, scoring, and timing at each phase.
 
 Thanks for reading and Enjoy the GAME!
 
