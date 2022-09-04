@@ -46,9 +46,9 @@ function moveMole() {
 }
 
 function countDown() {
-    timeLeft.textContent = currentTime
     if (currentTime > 0) {
         currentTime--
+        timeLeft.textContent = currentTime
     } else {
         clearInterval(countDownTimerId)
         clearInterval(timerId)
@@ -64,6 +64,7 @@ restartButton.addEventListener('click', () => {
     if (gameOver == true) {
         result = 0;
         score.textContent = "00";
+        // timeLeft.textContent = "10";
         currentTime = 10;
         timerId = null;
         gameStarted = true;
