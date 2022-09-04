@@ -64,7 +64,7 @@ restartButton.addEventListener('click', () => {
     if (gameOver == true) {
         result = 0;
         score.textContent = "00";
-        // timeLeft.textContent = "10";
+        timeLeft.textContent = "10";
         currentTime = 10;
         timerId = null;
         gameStarted = true;
