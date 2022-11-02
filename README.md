@@ -1,17 +1,7 @@
-# tinakw.github.io
 
-Project Details
- (Links to an external site.)Mandatory To Pass:
- (Links to an external site.)MVP - Minimum Viable Product
-Your DOM project must meet these requirements:
+Built with HTML, CSS and JavaScript.
 
-Built with HTML, CSS and JavaScript (must be visual and use the DOM not the Console)
-Hosted on Github pages
-Commits to Github every day
-A README.md file with explanations of the technologies used, the approach taken, a link to your live site, installation instructions, unsolved problems, etc
-
-If you build a Game, it must have:
-Must be a two player game (either against the computer or against another player)
+This is a two player game against the computer or against another player)
 
 A win state - a way for the player to win the game
 
