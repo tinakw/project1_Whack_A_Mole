@@ -1,23 +1,21 @@
-
+SCOPE:
 Built with HTML, CSS and JavaScript.
 
-This is a two player game against the computer or against another player)
+This is a two player game, you and your opponent - the clock.
 
-A win state - a way for the player to win the game
+This game is a simple game with a single objective: win by beating the last score.
 
-High score can be considered a win state
+A lose state: not increasing your score.
 
-A lose state - a way for the player to lose the game
+Hit the "START" button to keep playing if time runs out.
 
-A way to keep playing if the game is not over
-
-Multiple rounds to play - a round must begin, end, and there must be a way to check if the game should continue or the overall game is won or lost
+Players may play multiple rounds.
 
 ==***  Whack_A_Mole!! ***==
 
-Welcome to this version of Whack_A_Mole. The scope of the program aligns with the rules of the game. The rules are simple and the code easily customized to showcase a variety of functions. 
+Welcome to this version of Whack_A_Mole. The rules are simple and the code easily customized to showcase a variety of functions. 
 
-To play: the player "whacks" as many moles within 10 seconds. A single mole will appear in a random square and a point is earned if the cursor clicks on the mole before it disappears. Both countdown and score are displayed on the game board. 
+To play: the player "whacks" as many moles within 10 seconds, counting down to 0. The game is played on a grid. One mole will appear in random squares and a point is earned if the player clicks the cursor on the mole before it disappears. Both countdown and score are displayed on the game board. 
 
 An alert message appears and indicates the game is over along with the final score. A second alert message informs the player to click on the start button to commence another round and beat the last score.
 
