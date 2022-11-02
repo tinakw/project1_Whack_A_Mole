@@ -22,7 +22,7 @@ To play: the player "whacks" as many moles within 10 seconds, counting down to 0
 
 An alert message appears and indicates the game is over along with the final score. A second alert message informs the player to click on the start button to commence another round and beat the last score.
 
-Properties, Methods, functions used in this version:
+JavaScript contains:
 Boolean;
 querySelector();
 addEventListener();
@@ -43,10 +43,6 @@ button to "start" and restart the game;
 CSS contains: 
 styling specifications for html, header and body elements;
 "mole" graphic was created in PNG format (using "Canva" graphics platform) and migrated into the game repository and url-tracked in CSS.
-
-JS contains:
-functions: randomization of squares; move mole and timer countdown
-
 
 Challenges:
 Once the functionality to start and execute the game were determined, finessing the quality of the player experience was an area to improve. Initiating and then restarting the game after each round provided an opportunity to assess the code sequencing.
