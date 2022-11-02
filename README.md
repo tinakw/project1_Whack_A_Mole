@@ -13,6 +13,9 @@ Players may play multiple rounds.
 
 ==***  Whack_A_Mole!! ***==
 
+![image](https://user-images.githubusercontent.com/110048198/199381737-ae7d3c53-8f95-4f86-bfbc-46798c2c77ae.png)
+
+
 Welcome to this version of Whack_A_Mole. The rules are simple and the code easily customized to showcase a variety of functions. 
 
 To play: the player "whacks" as many moles within 10 seconds, counting down to 0. The game is played on a grid. One mole will appear in random squares and a point is earned if the player clicks the cursor on the mole before it disappears. Both countdown and score are displayed on the game board. 
